@@ -9,7 +9,10 @@ This is a web application that takes a user's birthday and calculates the day of
 
 ## BDD \(Behavior Driven Development\)
 
-## Technologies used
+## Technologies used:
+1. HTML.
+2. CSS \(Bootstrap & Custom Stylesheet\).
+3. JavaScript.
 
 ## Contact Information.
 
