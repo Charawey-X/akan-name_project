@@ -9,12 +9,13 @@
 
 
 header h1 {
-  font-family: 'Fanzine';
+  font-family: 'Vast Shadow',cursive;
   text-align: center;
+  font-weight: bolder;
   font-size:40px;
-  margin-top:5%;
+  margin-top:3%;
   font-size:60px;
-  color:chocolate;
+  color:orange;
 }
 
 .img1 {
@@ -25,9 +26,17 @@ header h1 {
 }
 
 .mid {
-  font-family:'Pacifico';
+  font-family:'Grandstander',cursive;
   font-weight:bold;
   font-size:40px;
   text-align:center;
-  color:orange;
+  color:chocolate;
+}
+
+footer {
+  text-align:right;
+  margin-left:70%;
+  color:brown;
+  font-family:'Atma';
+  font-size:18px;
 }
