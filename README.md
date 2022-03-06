@@ -14,3 +14,7 @@ This is a web application that takes a user's birthday and calculates the day of
 ## Contact Information.
 
 ## License & Copyright.
+[MIT License](LICENSE)
+>(c) 2022 __Yvonne Charawe__
+
+__*Live Link:*__
