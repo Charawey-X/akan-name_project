@@ -1,10 +1,20 @@
+.bckgrnd {
+  background-image: url("Images/background3.jpg");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:100%;
+}
+
+
 header h1 {
-  font-family: 'Atma', cursive;
+  font-family: 'Fanzine';
   text-align: center;
+  font-size:40px;
+  margin-top:5%;
+  font-size:60px;
   color:chocolate;
-  font-weight:900;
-  font-size:50px;
-  margin-top:10%;
 }
 
 header .img1 {
