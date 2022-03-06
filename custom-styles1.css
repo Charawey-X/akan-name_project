@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
 .bckgrnd {
   background-image: url("Images/background4.jpg");
   background-size:cover;
@@ -12,7 +18,7 @@ header h1 {
   font-family: 'Payday',cursive;
   text-align: center;
   font-weight: bolder;
-  font-size:50px;
+  font-size:70px;
   margin-top:5%;
   color:orange;
 }
@@ -26,6 +32,14 @@ header h1 {
   margin-top:-2%;
   }
 
+h2 {
+  text-align: center;
+  font-family:'JSL-Ancient';
+  font-weight: bolder;
+  font-size:40px;
+  margin-left:40%;
+}
+
 .img1 {
   float:right;
   background:transparent;
@@ -33,12 +47,48 @@ header h1 {
   max-height: 120px;
 }
 
-.mid {
-  font-family:'Grandstander',cursive;
+.form {
+  font-family:'Atma',cursive;
   font-weight:bold;
   font-size:40px;
-  text-align:center;
-  color:chocolate;
+  text-align:right;
+  color:powderblue;
+  margin-right: 20%;
+}
+
+input[type=text] {
+  width: 450px;
+  height:50px;
+  box-sizing: border-box;
+  padding: 5px 5px;
+  margin:8px 0;
+}
+
+input[type=checkbox] {
+  width: 30px;
+  height:30px;
+  box-sizing: border-box;
+  padding:0 5px 0 0;
+  margin-right:47%;
+  position: relative;
+}
+
+.checkbox-female {
+  margin-right:-40%;
+  margin-top: -7.5%;
+}
+
+.checkbox-other {
+  margin-right:-75%;
+  margin-top: -7.5%;
+}
+
+input[type=submit] {
+  color:yellow;
+  background:transparent;
+  border:transparent;
+  font-family: 'Payday';
+  font-size:50px;
 }
 
 footer {
@@ -47,4 +97,9 @@ footer {
   color:brown;
   font-family:'Atma';
   font-size:18px;
+}
+
+.akanname {
+  color:chartreuse;
+  font-family:'Home School';
 }
