@@ -1,0 +1,15 @@
+header h1 {
+  font-family: 'Atma', cursive;
+  text-align: center;
+  color:chocolate;
+  font-weight:900;
+  font-size:50px;
+  margin-top:10%;
+}
+
+header .img1 {
+  float:right;
+  background:transparent;
+  max-width: 80px;
+  max-height: 80px;
+}
