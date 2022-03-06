@@ -1,0 +1,50 @@
+.bckgrnd {
+  background-image: url("Images/background4.jpg");
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  height:100%;
+}
+
+
+header h1 {
+  font-family: 'Payday',cursive;
+  text-align: center;
+  font-weight: bolder;
+  font-size:50px;
+  margin-top:5%;
+  color:orange;
+}
+
+#a1 {
+  font-family:'Fanzine';
+  font-size:35px;
+  color:white;
+  float:right;
+  margin-right:-4%;
+  margin-top:-2%;
+  }
+
+.img1 {
+  float:right;
+  background:transparent;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.mid {
+  font-family:'Grandstander',cursive;
+  font-weight:bold;
+  font-size:40px;
+  text-align:center;
+  color:chocolate;
+}
+
+footer {
+  text-align:right;
+  margin-left:70%;
+  color:brown;
+  font-family:'Atma';
+  font-size:18px;
+}
