@@ -34,9 +34,8 @@ For issues, comments or feedback, reach me via email; **charawey@gmail.com**
 ## License & Copyright.
 [MIT License](LICENSE)
 
-## Live Link
-
-
 >(c) 2022 __Yvonne Charawe__
 
-__*Live Link:*__
+
+##Live Link
+[CLICK TO VIEW WEBSITE](https://charawey-x.github.io/akan-name_project/)
