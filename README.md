@@ -29,7 +29,7 @@ This is a web application that takes a user's birthday and calculates the day of
 2. CSS \(Bootstrap & Custom Stylesheet\).
 3. JavaScript.
 
-## Contact Information.
+## Contact Information
 For issues, comments or feedback, reach me via email; **charawey@gmail.com**
 ## License & Copyright.
 [MIT License](LICENSE)
@@ -37,5 +37,5 @@ For issues, comments or feedback, reach me via email; **charawey@gmail.com**
 >(c) 2022 __Yvonne Charawe__
 
 
-##Live Link
+## Live Link
 [CLICK TO VIEW WEBSITE](https://charawey-x.github.io/akan-name_project/)
