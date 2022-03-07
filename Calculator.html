@@ -28,41 +28,32 @@
     <div class="form form-group">
       <h2>Fill in the form below.</h2>
       <form action="#" id=form>
-        <div>
+        <div class="filldate">
          <label for="date">Date:</label>
-         <input type="text" id="date" name="date" maxlength="2">
-        </div>
-
-        <div>
-          <label for="month">Month:</label>
-          <input type="text" id="month" name="month">
-        </div>
-
-        <div>
-          <label for="year">Year:</label>
-          <input type="text" id="year" name="year">
+         <input type="date" name="date" id="date" style="font-family: Arial; font-size:30px; color:brown;" oninput="clearOutput()"/><br>
         </div>
 
         <div class="checkbox-male">
           <label for="male">Male:</label>
-          <input type="checkbox" value="male" name="gender">
+          <input type="checkbox" value="male" name="gender" oninput="clearOutput()">
         </div>
 
         <div class="checkbox-female">
           <label for="female">Female:</label>
-          <input type="checkbox" value="female" name="gender">
+          <input type="checkbox" value="female" name="gender" oninput="clearOutput()">
         </div>
-        <div class="checkbox-other">
-          <label for="other">Other:</label>
-          <input type="checkbox" value="other" name="gender">
-        </div>
+
         <div>
-          <input type="submit" value="Submit">
+          <button type="button" class="submit" onclick="computeName()">Submit</button><br>
         </div>
 
       </form>
 
+      <p id="result"></p>
+
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

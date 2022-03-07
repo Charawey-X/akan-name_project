@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 .bckgrnd {
@@ -56,6 +56,10 @@ h2 {
   margin-right: 20%;
 }
 
+.filldate {
+  margin-right:27%;
+}
+
 input[type=text] {
   width: 450px;
   height:50px;
@@ -78,17 +82,15 @@ input[type=checkbox] {
   margin-top: -7.5%;
 }
 
-.checkbox-other {
-  margin-right:-75%;
-  margin-top: -7.5%;
-}
 
-input[type=submit] {
+
+.submit {
   color:yellow;
   background:transparent;
   border:transparent;
   font-family: 'Payday';
   font-size:50px;
+  margin-top:-20%;
 }
 
 footer {
@@ -99,7 +101,16 @@ footer {
   font-size:18px;
 }
 
-.akanname {
-  color:chartreuse;
-  font-family:'Home School';
+#date {
+    border: none;
+    color: #536162;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+}
+#result {
+  margin-top:10%;
+  margin-left:30%;
+  color:deeppink;
+  font-family:'Pacifico';
+  text-align:center;
 }
