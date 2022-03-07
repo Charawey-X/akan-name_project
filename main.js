@@ -40,10 +40,10 @@ function computeName() {
     let dayOfWeek = getBirthday();
     if ((!!dayOfWeek.valueOf() === true) || (dayOfWeek == 0))  {
         if (selectedGender === 0) {
-            let result = "Your day is " + yourday[dayOfWeek] + "." + "\ Your Akan name is " + maleNames[dayOfWeek] + ".";
+            let result = "Your day is " + yourday[dayOfWeek] + "." + "\n Your Akan name is " + maleNames[dayOfWeek] + ".";
             document.getElementById("result").innerHTML = result;
         } else if (selectedGender === 1) {
-            let result = "Your  day is " + yourday[dayOfWeek] + "." + "\ Your Akan name is " +  femaleNames[dayOfWeek] + ".";
+            let result = "Your  day is " + yourday[dayOfWeek] + "." + "\n Your Akan name is " +  femaleNames[dayOfWeek] + ".";
             document.getElementById("result").innerHTML = result;
         }
     }else{
