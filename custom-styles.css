@@ -12,22 +12,27 @@ header h1 {
   font-family: 'Vast Shadow',cursive;
   text-align: center;
   font-weight: bolder;
-  font-size:60px;
-  margin-top:3%;
+  font-size:4vw;
+  margin-top:8%;
   color:orange;
 }
 
 .img1 {
   float:right;
   background:transparent;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.img1:hover {
+  max-width:120px;
+  max-height:120px;
 }
 
 .mid {
   font-family:'Grandstander',cursive;
   font-weight:bold;
-  font-size:40px;
+  font-size:2.5vw;
   text-align:center;
   color:chocolate;
 }
@@ -35,7 +40,8 @@ header h1 {
 footer {
   text-align:right;
   margin-left:70%;
+  margin-top:5%;
   color:brown;
   font-family:'Atma';
-  font-size:18px;
+  font-size:1vw;
 }
